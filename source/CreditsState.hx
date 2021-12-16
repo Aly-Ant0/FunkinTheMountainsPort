@@ -46,8 +46,12 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['Mod port by'],
+			['Aly-Ant',		    'alyant',		    'que pro',	 'https://twitter.com/Aly_Ant0',	'0xFFC0AFFF'],
+			['Galactic Tea'],
+			['Iccy',		'iccy',		'Good Artist',					'https://twitter.com/Iccy07',	'0xFF5BCC2E'],
+			['Pestana',			'pestana',		'Swag Mod composer',				'https://twitter.com/xXPestanaXx',		'0xFFFF01C2'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
@@ -189,5 +193,4 @@ class CreditsState extends MusicBeatState
 
 	private function unselectableCheck(num:Int):Bool {
 		return creditsStuff[num].length <= 1;
-	}
-}
+	}				
